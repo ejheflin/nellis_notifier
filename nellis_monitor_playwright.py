@@ -40,6 +40,7 @@ URLS: List[str] = [
     "https://nellisauction.com/search?Taxonomy+Level+1=Home+Improvement&query=reverse+osmosis+water",
     "https://nellisauction.com/search?query=12v+bench+power+supply",
     "https://nellisauction.com/search?query=mens+13+Allen+Edmonds",
+    "https://nellisauction.com/search?query=national+tree+company+flocked+9",
     
 ]
 
