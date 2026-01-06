@@ -46,7 +46,7 @@ NAMES: Dict[str, str] = {
 }
 
 STORAGE_STATE_FILE = "nellis_storage.json"
-RSS_FILE = "nellis_feed.xml"
+RSS_FILE = "docs/nellis_feed.xml"
 
 # If True, RSS includes a "no results" placeholder item per search (usually leave False)
 INCLUDE_ZERO_COUNT_IN_RSS = False
