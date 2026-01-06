@@ -32,17 +32,17 @@ jobs:
           python -m playwright install-deps chromium
         # Playwright provides CI guidance and dependency installation options. :contentReference[oaicite:2]{index=2}
 
-      - name: Restore nellis_storage.json from secret
-        env:
-          NELLIS_STORAGE_B64: ${{ secrets.NELLIS_STORAGE_B64 }}
+      - name: Check storage state exists
         run: |
+          ls -la
           python - << 'PY'
-          import os, base64
-          data = os.environ["NELLIS_STORAGE_B64"]
-          raw = base64.b64decode(data.encode("utf-8"))
-          with open("nellis_storage.json", "wb") as f:
-            f.write(raw)
-          print("Wrote nellis_storage.json")
+          import json
+          p="nellis_storage.json"
+          data=open(p,"r",encoding="utf-8").read()
+          j=json.loads(data)
+          print("OK storage_state keys:", list(j.keys()))
+          print("cookies:", len(j.get("cookies",[])))
+          print("origins:", len(j.get("origins",[])))
           PY
 
       - name: Run monitor
