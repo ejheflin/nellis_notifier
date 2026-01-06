@@ -34,6 +34,13 @@ URLS: List[str] = [
     "https://nellisauction.com/search?Location%20Name=Katy&query=48v%20dc%20charger",
     "https://nellisauction.com/search?Taxonomy%20Level%201=Automotive&Taxonomy%20Level%202=Automotive%20Accessories&query=light%20bar%20led",
     "https://nellisauction.com/search?Taxonomy%20Level%201=Beauty%20%26%20Personal%20Care&query=wahl%20clipper&Location%20Name=Katy",
+    "https://nellisauction.com/search?Location+Name=Katy&query=marine+wire+awg",
+    "https://nellisauction.com/search?Location+Name=Katy&Taxonomy+Level+1=Smart+Home&query=zigbee",
+    "https://nellisauction.com/search?Taxonomy+Level+1=Furniture+%26+Appliances&Taxonomy+Level+2=Kitchen+Appliances&query=refrigerator+freezer&Star+Rating=4.0&Star+Rating=5.0",
+    "https://nellisauction.com/search?Taxonomy+Level+1=Home+Improvement&query=reverse+osmosis+water",
+    "https://nellisauction.com/search?query=12v+bench+power+supply",
+    "https://nellisauction.com/search?query=mens+13+Allen+Edmonds",
+    
 ]
 
 # Optional friendly names for RSS titles (otherwise URL is used)
