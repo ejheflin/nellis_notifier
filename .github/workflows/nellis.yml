@@ -3,7 +3,7 @@ name: Update Nellis RSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */4 * * *" # every 4 hours
+    - cron: "0 0 * * *" # every day at 00:00
     
 permissions:
   contents: write
