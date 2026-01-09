@@ -41,6 +41,7 @@ URLS: List[str] = [
     "https://nellisauction.com/search?query=12v+bench+power+supply",
     "https://nellisauction.com/search?query=mens+13+Allen+Edmonds",
     "https://nellisauction.com/search?query=national+tree+company+flocked+9",
+    "https://nellisauction.com/search?Location+Name=Katy&query=king+mattress&Suggested+Retail=500&Star+Rating=4.0&Star+Rating=5.0",
     
 ]
 
