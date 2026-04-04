@@ -37,14 +37,13 @@ URLS: List[str] = [
     "https://nellisauction.com/search?Location+Name=Katy&query=marine+wire+awg",
     "https://nellisauction.com/search?Location+Name=Katy&Taxonomy+Level+1=Smart+Home&query=zigbee",
     "https://nellisauction.com/search?Taxonomy+Level+1=Furniture+%26+Appliances&Taxonomy+Level+2=Kitchen+Appliances&query=refrigerator+freezer&Star+Rating=4.0&Star+Rating=5.0",
-    "https://nellisauction.com/search?Taxonomy+Level+1=Home+Improvement&query=reverse+osmosis+water",
-    "https://nellisauction.com/search?query=12v+bench+power+supply",
     "https://nellisauction.com/search?query=mens+13+Allen+Edmonds",
     "https://nellisauction.com/search?query=national+tree+company+flocked+9",
     "https://nellisauction.com/search?Location+Name=Katy&query=king+mattress&Suggested+Retail=500&Star+Rating=4.0&Star+Rating=5.0",
     "https://nellisauction.com/search?Location+Name=Katy&query=basketball+hoop&Taxonomy+Level+1=Outdoors+%26+Sports&Suggested+Retail=200",
     "https://nellisauction.com/search?Location+Name=Katy&query=folk+coffee+cup",
-    "https://nellisauction.com/search?query=bench+power+supply&Suggested+Retail=50&Suggested+Retail=100",
+    "https://nellisauction.com/search?query=outdoor+speakers&Taxonomy+Level+1=Electronics&Taxonomy+Level+2=Speakers&Suggested+Retail=300&Suggested+Retail=9999",
+    "https://nellisauction.com/search?Taxonomy+Level+1=Electronics&Taxonomy+Level+2=Speakers&query=sonos&Suggested+Retail=100&Suggested+Retail=9999",
 ]
 
 # Optional friendly names for RSS titles (otherwise URL is used)
