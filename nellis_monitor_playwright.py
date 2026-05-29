@@ -44,6 +44,7 @@ URLS: List[str] = [
     "https://nellisauction.com/search?Location+Name=Katy&query=folk+coffee+cup",
     "https://nellisauction.com/search?query=outdoor+speakers&Taxonomy+Level+1=Electronics&Taxonomy+Level+2=Speakers&Suggested+Retail=300&Suggested+Retail=9999",
     "https://nellisauction.com/search?Taxonomy+Level+1=Electronics&Taxonomy+Level+2=Speakers&query=sonos&Suggested+Retail=100&Suggested+Retail=9999",
+    "https://www.nellisauction.com/search?Location+Name=Katy&query=all+clad",
 ]
 
 # Optional friendly names for RSS titles (otherwise URL is used)
